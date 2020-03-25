@@ -1,0 +1,29 @@
+{
+  "name": "nelmo-lang",
+  "description": "Port of Elm to JavaScript",
+  "keywords": [
+    "elm",
+    "interpreter",
+    "compiler",
+    "javascript"
+  ],
+  "version": "0.0.1",
+  "author": "Timo Sarkar",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "main": "./lib/nelmo.js",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "simpleunit -r ./test"
+  },
+  "dependencies": {
+    "nelmo": "0.0.1"
+  },
+  "devDependencies": {
+    "simpleunit": "0.0.7"
+  }
+}
