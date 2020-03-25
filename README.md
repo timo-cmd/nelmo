@@ -70,6 +70,29 @@ Run this command in your local shell.
 npm test
 ```
 
+---
+## Sample programs written in nelmo
+
+```Elm
+-- incr.elm --
+
+log = Native.console.log
+    incr : Int -> Int
+    incr a = a + 1
+log "incr 1 is" (incr 1)
+```
+
+```Elm
+-- hello.elm --
+
+log = Native.console.log
+    greet = "Hello, from Nelmo!"
+log greet
+```
+
+Pretty polished and elegant right... Yes!
+
+The Nelmo compiler can run anywhere where Elm or JavaScript can run !
 
 ## Built With
 
