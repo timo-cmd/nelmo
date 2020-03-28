@@ -1,4 +1,9 @@
-<img src="https://github.com/timo-cmd/nelmo/blob/master/images/nelmologo.jpg"></img>
+<div align="center">
+  <a href="https://elm-lang.org/" target="_blank"><img src="https://github.com/timo-cmd/nelmo/blob/master/images/elm.png" alt="NUA-LANG" style="max-width:100%; margin: 0 auto;" width="80" height="80">
+  <p><b>N E L M O</b></p></a>
+  <p>A polished elm compiler</p>
+</div>
+
 ---
 
 
